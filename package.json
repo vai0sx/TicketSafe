@@ -1,0 +1,23 @@
+{
+  "name": "ticketsafe",
+  "version": "1.0.0",
+  "description": "NFT Ticket Marketplace for Entertainment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tickets"
+  ],
+  "author": "TicketSafe",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.2",
+    "@truffle/hdwallet-provider": "^2.1.9",
+    "chai": "^4.3.7",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.16"
+  }
+}
